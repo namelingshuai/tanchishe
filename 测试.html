@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        div {
+            font-size: 30px;
+        }
+
+
+    </style>
+</head>
+
+<div>
+
+    split() 用法：<字符串对象>.split(<分隔符字符>)；返回一个数组，该数组是从<字符串对象>中分离开来的，
+    <分隔符字符>决定了分离的地方，它本身不会包含在所返回的数组中。例如：'1&2&345&678'.split('&')返回数组：
+        1,2,345,678。关于数组，我们等一下就讨论。
+    <br>
+    substring() 用法：<字符串对象>.substring(<始>[, <终>])；返回原字符串的子字符串
+            ，该字符串是原字符串从<始>位置到<终>位置的前一位置的一段。<终> - <始> = 返回字符串的长度（length）。
+                如果没有指定<终>或指定得超过字符串长度，则子字符串从<始>位置一直取到原字符串尾。如果所指定的位置不能返回字符串，
+                    则返回空字符串。
+</div>
+
+
+<script>
+//    var x = 1;
+//    function f(){
+//        var y =2 ;
+//        function g(){
+//            var z =3 ;
+//            console.log(z);
+//        }
+//
+//    }
+
+//i  =  1 ;
+//j  = ++ i ;
+//
+//    console.log(i);
+//    console.log(j);
+
+
+//var my =new Object();
+//my.height = new Date();
+//my.width = my.height;
+//delete my.height ;
+//document.write(my.width);
+//
+//alert( void(0) )
+//
+
+var a  = [1,2,3];
+//a = a.splice(0,2);
+//    alert(a);
+
+//a = a.splice(1,2);
+//alert(a);
+a = a.splice(0 , 1) ;
+    alert(a);
+
+
+</script>
+<body>
+
+</body>
+</html>
