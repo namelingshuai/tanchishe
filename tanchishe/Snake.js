@@ -72,6 +72,7 @@
         //a.从后往前遍历(不出出现层叠)  b.把前面的赋值给后面   c.不管第一个;
         for(var i=this.body.length-1;i>=1;i--){//a和c原理
             //b.把前面的赋值给后面
+            this.body[0].zIndex = 999;
             this.body[i].top = this.body[i-1].top;
             this.body[i].left = this.body[i-1].left;
         }

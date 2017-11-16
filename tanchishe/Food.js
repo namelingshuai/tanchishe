@@ -34,6 +34,7 @@
         this.left = parseInt(Math.random()*(map.offsetWidth-this.width)/this.width)*this.width;
         newDiv.style.top = this.top + "px";
         newDiv.style.left = this.left + "px";
+        newDiv.zIndex = 3;
         //Ìí¼Ó
         map.appendChild(newDiv);
 
